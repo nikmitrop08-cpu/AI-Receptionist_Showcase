@@ -17,6 +17,4 @@ A user starts a session; the API checks the business AI-enabled setting and crea
 
 Slots use 30-minute start increments, account for service duration, apply date-specific hours overrides, exclude cancelled appointments from occupancy, and avoid returning elapsed slots for the current day. The inspected code uses the `Europe/Athens` timezone.
 
-## Scope
 
-This is an implementation-level diagram based on supplied backend source and frontend package manifest. Frontend event wiring and deployment topology were not included in the review archive, so the diagrams do not assert exact browser transport details or cloud deployment.
